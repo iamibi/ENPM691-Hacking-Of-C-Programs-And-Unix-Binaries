@@ -1,0 +1,44 @@
+Hi all,
+
+PLEASE NOTE: READ ALL INSTRUCTIONS AND THE ASSIGNMENT DESCRIPTION BEFORE REACHING OUT FOR HELP/QUESTIONS
+
+For HW-3, your task is to replicate the following programs that are vulnerable. This will partly help you for the finals as well as for your projects in general.
+
+Please do NOT use preferred stack boundary(-mpreferred-stack-boundary). When using return to text regions, ASLR should not be turned off. For those problems that involve execution of shellcode placed on the stack, you are allowed to disable ASLR and make sure the stack is executable with the help of the correct flag(-z execstack). While we will allow disabling the stack protector(-fno-stack-protector), we encourage you to attempt without it, if possible. 
+
+These programs are part of the ASLR Smack and Laugh reference - see additional reading materials:
+
+https://myelms.umd.edu/1238707/files/folder/Additional%20Reading%20Materials/Security%20Hacks Download https://myelms.umd.edu/1238707/files/folder/Additional%20Reading%20Materials/Security%20Hacks
+
+You will have to put screenshots of exploits scripts (e.g. Perl scripts) and evidence screenshots that you were able to execute shell code of your choice. We need step-by-step description of how you activated your shell code for all the programs.
+
+Pay attention to the instructions mentioned in the paper. Please do not attach any perl scripts in your submission. Make sure they appear as screenshots in your .docx or .pdf submission.
+The entire document write-up should be in a Proof-of-Concept format (PoC) which is basically step-by-step description of what was done to achieve the task.
+Respect the University's academic integrity policy and do not submit another person's work. 
+
+File submission format:
+
+Fall_2021_enpm691_hw3_<lastName>_<firstName>.docx
+
+Fall_2021_enpm691_hw3_<lastName>_<firstName>.pdf
+
+Take each of the following programs and develop an exploit, similar to the perl scripts we used in the class.
+
+1. Figure 7: ret2text.c
+2. Figure 8: ret2bss.c
+3. Figure 10: strptr.c
+4. Figure 14: divulge.c
+5. Figure 11: funcptr.c
+6. Figure 17: ret2ret.c
+7. Figure 20: ret2pop.c
+8. Figure 23: ret2esp.c
+9. Figure 29: ret2got.c
+10. Slide 33 - https://umd.instructure.com/courses/1308776/files/folder/Slides?preview=63527454  - Format String Lecture
+
+ 
+
+You will have to replicate and compile these programs individually on your machines so you can exploit them. 
+
+All these programs carry equal weight. Each question has a score of 10 points (10 x 10 = 100).
+
+Start working right away and do not wait until the last minute.
